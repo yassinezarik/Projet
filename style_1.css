@@ -1,0 +1,50 @@
+Body {
+    font-size:25px;
+    background-color: silver;
+}
+table, th, td { 
+    border: 2px solid black
+}
+th { 
+    width : 25%;
+    background-color: brown;
+    
+}
+table{ 
+    width : 48%;  
+}
+table.exercice{
+    float:left;
+}
+table.correction{
+    float:right;
+}
+div {
+    clear:both;
+}
+tr { 
+    text-align: center; 
+}
+h2 {
+    font-size:20px;
+}
+input[type=submit], input[type=button] {
+    background-color: silver;
+    border: none;
+    color : black;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.6;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 black, 0 6px 20px 0 black;
+  }
+  input[type=submit]:hover {
+      opacity: 1;
+      box-shadow: 0 12px 16px 0 brown, 0 17px 50px 0 brown;
+  }
+  input[type=submit]:hover {
+      opacity: 1
+  }
